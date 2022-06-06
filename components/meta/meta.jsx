@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-export default function meta() {
+export default function meta(props) {
     return (
         <Head>
             <title>{props.title}</title>
